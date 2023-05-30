@@ -40,36 +40,36 @@ namespace Escola.Controllers
                 Nome = "POO",
                 Area = "240",
                 Duracao = 3,
-                disciplinas = disciplinas 
+                Disciplinas = disciplinas 
             });
 
             cursos.Add(new Curso{
                 Nome = "Back-end",
                 Area = "130",
                 Duracao = 4,
-                disciplinas = disciplinas
+                Disciplinas = disciplinas
             });
 
             alunos.Add(new Aluno{
                 Nome = "Alana",
                 DataNascimento = new DateTime(2003,05,21),
-                CPF = "465.543.234-12",
-                disciplinas = disciplinas,
-                cursos = cursos
+                Cpf = "465.543.234-12",
+                Disciplinas = disciplinas,
+                Cursos = cursos
             });
             alunos.Add(new Aluno{
                 Nome = "Ian",
                 DataNascimento = new DateTime(2003,05,21),
-                CPF = "465.543.234-22",
-                disciplinas = disciplinas,
-                cursos = cursos 
+                Cpf = "465.543.234-22",
+                Disciplinas = disciplinas,
+                Cursos = cursos 
             });
             alunos.Add(new Aluno{
                 Nome = "Murilo",
                 DataNascimento = new DateTime(2003,05,21),
-                CPF = "465.543.234-34",
-                disciplinas = disciplinas,
-                cursos = cursos 
+                Cpf = "465.543.234-34",
+                Disciplinas = disciplinas,
+                Cursos = cursos 
             });
             return alunos;
         }

@@ -54,28 +54,28 @@ namespace Escola.Controllers
                 Nome = "Programação para Internet",
                 Area = "149",
                 Duracao = 6,
-                disciplinas = disciplinas
+                Disciplinas = disciplinas
             });
 
             cursos.Add(new Curso{
                 Nome = "POO",
                 Area = "240",
                 Duracao = 3,
-                disciplinas = disciplinas 
+                Disciplinas = disciplinas 
             });
 
             cursos.Add(new Curso{
                 Nome = "Back-end",
                 Area = "130",
                 Duracao = 4,
-                disciplinas = disciplinas
+                Disciplinas = disciplinas
             });
 
             cursos.Add(new Curso{
                 Nome = "Front-end",
                 Area = "130",
                 Duracao = 2,
-                disciplinas = disciplinas
+                Disciplinas = disciplinas
             });
 
             return cursos;    
