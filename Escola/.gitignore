@@ -105,8 +105,4 @@ dist
 # TernJS port file
 .tern-port
 
-.bin
-
-.vscode
-
-obj
+bin/debug
